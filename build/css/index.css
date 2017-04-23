@@ -1,0 +1,21 @@
+.red {
+  color: #000;
+}
+
+.sunday{
+  border-left: 1px solid #ddd;
+  padding-left: 10px;
+
+}
+
+.wage{
+  padding-right: 10px;
+}
+
+#sunday{
+  padding-left: 11px;
+}
+
+.spreadsheetform th:nth-child(1){
+  width: 150px;
+}
