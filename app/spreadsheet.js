@@ -23,17 +23,14 @@ export default class SpreadSheet extends React.Component {
   }
 
   onclick(e){
-    console.log("test")
     e.preventDefault()
     var newrows = this.state.numrows+1
-    console.log(newrows)
     this.setState({
       numrows: newrows
     })
   }
 
   lessrows(e){
-    console.log("test")
     e.preventDefault()
     var newrows = this.state.numrows
     if(newrows > 1){
@@ -42,7 +39,6 @@ export default class SpreadSheet extends React.Component {
     else{
       newrows = this.state.numrows
     }
-    console.log(newrows)
     this.setState({
       numrows: newrows
     })

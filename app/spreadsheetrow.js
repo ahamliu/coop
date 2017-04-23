@@ -18,10 +18,6 @@ export default class SpreadSheetRow extends React.Component{
   }
 
   onChange(e){
-
-    console.log(typeof(this.state.wage))
-    console.log(typeof(e.target.value))
-
     if(e.target.name == "name"){
       this.setState({
         [e.target.name]: e.target.value

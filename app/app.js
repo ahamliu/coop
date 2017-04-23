@@ -19,5 +19,4 @@ ReactDOM.render((
  <Header>
   <SpreadSheet />
  </Header>
-) , document.getElementById('app')
-)
+) , document.getElementById('app'))
